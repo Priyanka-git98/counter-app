@@ -3,7 +3,8 @@ import React, { createContext } from 'react';
 // import MyComponent from './components/DisableButton';
 // import Useref from './components/Useref'
 // import ChildA from './components/ChildA'
-import Usememo from './components/Usememo'
+// import Usememo from './components/Usememo'
+import Usecallback from './components/Usecallback'
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       {/* <MyComponent/> */}
       {/* <Useref/> */}
       {/* <ChildA name={name}/> */}
-      <Usememo/>
+      {/* <Usememo/> */}
+      <Usecallback/>
 
     </div>
   );
