@@ -4,7 +4,7 @@ function CounterApp() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    document.title = `Count: ${count}`;
+    console.log("component mounted");
   }, [count]);
 
   const increment = () => {
