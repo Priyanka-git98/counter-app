@@ -5,7 +5,7 @@ function CounterApp() {
 
   useEffect(() => {
     console.log("component mounted");
-  }, [count]);
+  },[count]);
 
   const increment = () => {
     setCount(count + 1);
